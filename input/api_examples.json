@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "library": "json",
+        "code": "json.loads('{\"name\": \"Bala\"}')"
+    },
+    {
+        "id": 2,
+        "library": "json",
+        "code": "json.dumps({\"name\": \"Bala\"})"
+    },
+    {
+        "id": 3,
+        "library": "json",
+        "code": "json.magic_load('data.json')"
+    },
+    {
+        "id": 4,
+        "library": "json",
+        "code": "json.parse_file('data.json')"
+    },
+    {
+        "id": 5,
+        "library": "json",
+        "code": "json.loads('{\"name\": \"Bala\"}', fake_option=True)"
+    },
+    {
+        "id": 6,
+        "library": "json",
+        "code": "json.dumps({\"name\": \"Bala\"}, imaginary_indent=True)"
+    },
+    {
+        "id": 7,
+        "library": "pandas",
+        "code": "pd.read_csv('data.csv')"
+    },
+    {
+        "id": 8,
+        "library": "pandas",
+        "code": "pd.DataFrame({'name': ['Bala', 'Ram']})"
+    },
+    {
+        "id": 9,
+        "library": "pandas",
+        "code": "pd.super_read_csv('data.csv')"
+    },
+    {
+        "id": 10,
+        "library": "pandas",
+        "code": "pd.create_magic_dataframe()"
+    },
+    {
+        "id": 11,
+        "library": "pandas",
+        "code": "pd.read_csv('data.csv', imaginary_option=True)"
+    },
+    {
+        "id": 12,
+        "library": "pandas",
+        "code": "pd.DataFrame({'name': ['Bala']}, fake_parameter=True)"
+    },
+    {
+        "id": 13,
+        "library": "requests",
+        "code": "requests.get('https://example.com')"
+    },
+    {
+        "id": 14,
+        "library": "requests",
+        "code": "requests.post('https://example.com', json={'name': 'Bala'})"
+    },
+    {
+        "id": 15,
+        "library": "requests",
+        "code": "requests.fetch_data('https://example.com')"
+    },
+    {
+        "id": 16,
+        "library": "requests",
+        "code": "requests.smart_request('https://example.com')"
+    },
+    {
+        "id": 17,
+        "library": "requests",
+        "code": "requests.get('https://example.com', fake_timeout=10)"
+    },
+    {
+        "id": 18,
+        "library": "requests",
+        "code": "requests.post('https://example.com', imaginary_headers={})"
+    },
+    {
+        "id": 19,
+        "library": "json",
+        "code": "json.load(open('data.json'))"
+    },
+    {
+        "id": 20,
+        "library": "pandas",
+        "code": "pd.read_excel('data.xlsx')"
+    }
+]
