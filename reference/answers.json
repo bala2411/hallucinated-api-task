@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "api_name": "json.loads",
+    "classification": "valid API"
+  },
+  {
+    "id": 2,
+    "api_name": "json.dumps",
+    "classification": "valid API"
+  },
+  {
+    "id": 3,
+    "api_name": "json.magic_load",
+    "classification": "Hallucinated API"
+  },
+  {
+    "id": 4,
+    "api_name": "json.parse_file",
+    "classification": "Hallucinated API"
+  },
+  {
+    "id": 5,
+    "api_name": "json.loads",
+    "classification": "Invalid API"
+  },
+  {
+    "id": 6,
+    "api_name": "json.dumps",
+    "classification": "Invalid API"
+  },
+  {
+    "id": 7,
+    "api_name": "pd.read_csv",
+    "classification": "valid API"
+  },
+  {
+    "id": 8,
+    "api_name": "pd.DataFrame",
+    "classification": "valid API"
+  },
+  {
+    "id": 9,
+    "api_name": "pd.super_read_csv",
+    "classification": "Hallucinated API"
+  },
+  {
+    "id": 10,
+    "api_name": "pd.create_magic_dataframe",
+    "classification": "Hallucinated API"
+  },
+  {
+    "id": 11,
+    "api_name": "pd.read_csv",
+    "classification": "Invalid API"
+  },
+  {
+    "id": 12,
+    "api_name": "pd.DataFrame",
+    "classification": "Invalid API"
+  },
+  {
+    "id": 13,
+    "api_name": "requests.get",
+    "classification": "valid API"
+  },
+  {
+    "id": 14,
+    "api_name": "requests.post",
+    "classification": "valid API"
+  },
+  {
+    "id": 15,
+    "api_name": "requests.fetch_data",
+    "classification": "Hallucinated API"
+  },
+  {
+    "id": 16,
+    "api_name": "requests.smart_request",
+    "classification": "Hallucinated API"
+  },
+  {
+    "id": 17,
+    "api_name": "requests.get",
+    "classification": "Invalid API"
+  },
+  {
+    "id": 18,
+    "api_name": "requests.post",
+    "classification": "Invalid API"
+  },
+  {
+    "id": 19,
+    "api_name": "json.load",
+    "classification": "valid API"
+  },
+  {
+    "id": 20,
+    "api_name": "pd.read_excel",
+    "classification": "valid API"
+  }
+]
