@@ -1,16 +1,20 @@
 import json
+import os
 import sys
 
 INPUT_FILE = "input/api_examples.json"
 OUTPUT_FILE = "output/classification.json"
-REFERENCE_FILE = "reference/answers.json"
+
+REFERENCE_FILE = os.environ.get(
+    "REFERENCE_FILE",
+    "/evaluation/answers.json"
+)
 
 ALLOWED_TAGS = {
     "valid API",
     "Hallucinated API",
     "Invalid API"
 }
-
 
 def load_json(filename):
     try:

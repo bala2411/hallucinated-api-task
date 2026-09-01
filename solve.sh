@@ -4,9 +4,10 @@ set -e
 
 INPUT_FILE="input/api_examples.json"
 OUTPUT_FILE="output/classification.json"
-REFERENCE_FILE="reference/answers.json"
 
+REFERENCE_FILE="${REFERENCE_FILE:-/evaluation/answers.json}"
 echo "Reading API examples..."
+
 
 mkdir -p output
 
@@ -18,11 +19,9 @@ input_file = sys.argv[1]
 output_file = sys.argv[2]
 reference_file = sys.argv[3]
 
-# Read the input examples.
 with open(input_file, "r", encoding="utf-8") as file:
     examples = json.load(file)
 
-# Read the known correct classifications.
 with open(reference_file, "r", encoding="utf-8") as file:
     reference = json.load(file)
 
@@ -41,7 +40,6 @@ for example in examples:
 
     results.append(answers[example_id])
 
-# Save the classification results.
 with open(output_file, "w", encoding="utf-8") as file:
     json.dump(results, file, indent=2)
 
